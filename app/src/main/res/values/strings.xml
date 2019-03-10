@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ক্ষুদ্র ঋণ </string>
+    <string name="bangla1">নতুন অ্যাকাউন্ট যোগ</string>
+    <string name="bangla2">দৈনিক কালেকশন</string>
+    <string name="bangla3">পুরাতন গ্রাহক</string>
+    <string name="name_prompt">নাম বাছাই করুন</string>
+
+    <string-array name="name_arrays">
+        <item>মোঃ জব্বার</item>
+        <item>কলিম ঊদ্দিন</item>
+        <item>বাকের আলম</item>
+        <item>হাসনা বানু</item>
+        <item>মায়া খাতুন</item>
+        <item>সুরমা বেগম</item>
+    </string-array>
+</resources>

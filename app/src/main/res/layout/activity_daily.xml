@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".daily">
+
+    <EditText
+        android:id="@+id/motkisti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="351dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="মোট কিস্তি" />
+
+    <EditText
+        android:id="@+id/dailykisti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="দৈনিক কিস্তি" />
+
+    <EditText
+        android:id="@+id/bakikisti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="242dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="বকেয়া কিস্তি" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="199dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="164dp"
+        android:entries="@array/name_arrays"
+        android:prompt="@string/name_prompt"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="433dp"
+        android:text="জমা গ্রহন" />
+
+    <EditText
+        android:id="@+id/datetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="তারিখ" />
+
+</RelativeLayout>
