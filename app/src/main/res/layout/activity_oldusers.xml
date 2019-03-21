@@ -16,7 +16,7 @@
         android:layout_marginTop="70dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="নাম" />
+        android:hint="নাম" />
 
     <Button
         android:id="@+id/button4"
@@ -36,7 +36,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="60dp"
         android:layout_marginTop="194dp"
-        android:text="তারিখ" />
+        android:hint="তারিখ" />
 
     <TextView
         android:id="@+id/textView10"
@@ -46,7 +46,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="262dp"
         android:layout_marginTop="196dp"
-        android:text="কিস্তির টাকা" />
+        android:hint="কিস্তির টাকা" />
 
     <EditText
         android:id="@+id/editText10"
@@ -58,7 +58,7 @@
         android:layout_marginTop="231dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="তারিখ" />
+        android:hint="তারিখ" />
 
     <EditText
         android:id="@+id/editText12"
@@ -70,7 +70,7 @@
         android:layout_marginTop="293dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="তারিখ" />
+        android:hint="তারিখ" />
 
     <EditText
         android:id="@+id/editText11"
@@ -82,7 +82,7 @@
         android:layout_marginTop="232dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="টাকা" />
+        android:hint="টাকা" />
 
     <EditText
         android:id="@+id/editText13"
@@ -94,5 +94,5 @@
         android:layout_marginTop="294dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="টাকা" />
+        android:hint="টাকা" />
 </RelativeLayout>
